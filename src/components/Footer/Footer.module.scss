@@ -1,0 +1,13 @@
+.container_footer{
+    background-color: rgb(75, 75, 75);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 1.2em;
+
+    .title{
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
