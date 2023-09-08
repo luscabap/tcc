@@ -1,10 +1,11 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Mainpage from "./pages/Mainpage";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import { Cadastro } from "./pages/Cadastro";
-import Footer from "./components/Footer";
+import Mainpage from "./pages/Mainpage";
 
 function AppRoutes(){
+
     return(
         <BrowserRouter>
         <Navbar/>

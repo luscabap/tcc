@@ -6,8 +6,12 @@ import {
   User,
 } from "@phosphor-icons/react";
 import styles from "./Navbar.module.scss";
+import ModalLogin from "../ModalLogin";
+import { useState } from "react";
 
 export default function Navbar() {
+  const [openModal, setOpenModal] = useState(false);
+
   return (
     <nav className={styles.container}>
       <div className={styles.infos}>
@@ -30,7 +34,13 @@ export default function Navbar() {
             className={styles.botao}
           />
           <Heart size={40} color={"#AB450C"} className={styles.botao} />
-          <User size={45} color={"#AB450C"} className={styles.botao} />
+          <User
+            size={45}
+            color={"#AB450C"}
+            className={styles.botao}
+            onClick={() => setOpenModal(!openModal)}
+          />
+          <ModalLogin isOpen={openModal} setOpenModal={setOpenModal} />
         </div>
       </div>
       <ul className={styles.lista}>

@@ -1,0 +1,68 @@
+.background_page{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right:  0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+
+    .modal_login{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        width: 40vw;
+        height: 60vh;
+        border-radius: 1.6em;
+        transition: 1s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .container_modal{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 90%;
+            height: 90%;
+
+            .texto_cliente{
+                font-weight: bolder;
+                color: #008F8C;
+                text-decoration: underline;
+                font-size: 1.5em;
+                margin-bottom: 0.5em;
+            }
+    
+            .input_login{
+                width: 70%;
+                border: none;
+                margin-bottom: 1em;
+                padding: 0.7em;
+                background-color: #effdfd;
+                border-radius: 0.4em;
+            }
+            
+            .botao_usuario{
+                text-decoration: underline;
+                font-weight: bolder;
+                cursor: pointer;
+                margin: 0.6em 0;
+            }
+            
+            .botao_fechar_modal{
+                background-color: white;
+                border: none;
+                cursor: pointer;
+                border-radius: 0.5em;
+                position: fixed;
+                top: 1.5%;
+                right: 1.5%;
+            }
+        }
+
+    }
+}
