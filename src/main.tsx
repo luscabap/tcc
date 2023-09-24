@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './styles/index.scss'
+import './styles/GlobalStyles.module.scss'
 import AppRoutes from './routes.tsx'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(

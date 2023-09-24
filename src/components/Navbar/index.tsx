@@ -8,18 +8,23 @@ import {
 import styles from "./Navbar.module.scss";
 import ModalLogin from "../ModalLogin";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function Navbar() {
   const [openModal, setOpenModal] = useState(false);
-
+  const navigate = useNavigate();
+  function mudarRota(rota:string){
+    navigate(`/${rota}`);
+  }
+  
   return (
     <nav className={styles.container}>
       <div className={styles.infos}>
-        <div className={styles.info_logo}>
+        <div className={styles.info_logo} onClick={() => navigate("/")}>
           <RocketLaunch size={60} className={styles.logo} />
           <p className={styles.logo_txt}>DEV'S</p>
         </div>
-        <div className={styles.container_pesquisa}>
+        <div className={styles.container_pesquisa}> 
           <MagnifyingGlass size={32} className={styles.lupa} />
           <input
             type="text"
@@ -32,6 +37,7 @@ export default function Navbar() {
             size={40}
             color={"#AB450C"}
             className={styles.botao}
+            onClick={ () => mudarRota("carrinho")}
           />
           <Heart size={40} color={"#AB450C"} className={styles.botao} />
           <User

@@ -1,12 +1,14 @@
+@import "../../styles/variables";
+
 .container {
     display: block;
     height: 9em;
 
     .infos {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
-        background-color: #0CABA8;
+        background-color: $principal;
         height: 65%;
 
         .info_logo{
@@ -15,20 +17,21 @@
             align-items: center;
             justify-content: center;
             padding: 1em;
+            cursor: pointer;
             .logo{
-                background-color: white;
+                background-color: $claro;
                 border-radius: 50%;
                 margin: 0.2em 0 0 0;
             }
 
             .logo_txt{
-                font-weight: bolder;
+                font-family: $fonte-bold;
                 display: flex;
             }
         }
 
         .container_pesquisa{
-            width: 80%;
+            min-width: 40rem;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -40,7 +43,7 @@
                 border-radius: 1em;
             }
             .barra_pesquisa::-webkit-input-placeholder{
-                font-style: bold;
+                font-family: $fonte-bold;
                 font-size: 1.2em;
             }
             
@@ -82,7 +85,7 @@
         justify-content: center;
         list-style-type: none;
         gap: 10px;
-        background-color: #078684;
+        background-color: $secundario;
         
         .item{
             opacity: 0.9;
@@ -94,7 +97,7 @@
         }
 
         .item:hover{
-            background-color: #09eeea;
+            background-color: $hoverItem;
             transition: 0.7s
         }
     }

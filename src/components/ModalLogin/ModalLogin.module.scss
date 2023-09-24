@@ -1,10 +1,12 @@
+@import "../../styles/variables";
+
 .background_page{
     position: fixed;
     top: 0;
     left: 0;
     right:  0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: $fundoModal;
     z-index: 1000;
 
     .modal_login{
@@ -12,7 +14,7 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        background-color: white;
+        background-color: $claro;
         width: 40vw;
         height: 60vh;
         border-radius: 1.6em;
@@ -30,8 +32,8 @@
             height: 90%;
 
             .texto_cliente{
-                font-weight: bolder;
-                color: #008F8C;
+                font-family: $fonte-bold;
+                color: $secundario;
                 text-decoration: underline;
                 font-size: 1.5em;
                 margin-bottom: 0.5em;
@@ -42,19 +44,21 @@
                 border: none;
                 margin-bottom: 1em;
                 padding: 0.7em;
-                background-color: #effdfd;
+                background-color: $inputClaro;
                 border-radius: 0.4em;
+                text-decoration: none;
             }
             
             .botao_usuario{
                 text-decoration: underline;
-                font-weight: bolder;
+                color: $escuro;
+                font-family: $fonte-bold;
                 cursor: pointer;
                 margin: 0.6em 0;
             }
             
             .botao_fechar_modal{
-                background-color: white;
+                background-color: $claro;
                 border: none;
                 cursor: pointer;
                 border-radius: 0.5em;

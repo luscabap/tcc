@@ -3,19 +3,23 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import { Cadastro } from "./pages/Cadastro";
 import Mainpage from "./pages/Mainpage";
+import { Carrinho } from "./pages/Carrinho";
+import styles from './styles/GlobalStyles.module.scss';
 
-function AppRoutes(){
-
-    return(
-        <BrowserRouter>
-        <Navbar/>
-            <Routes>
-                <Route path="/" element={<Mainpage />} />
-                <Route path="/cadastro" element={<Cadastro />} />
-            </Routes>
+function AppRoutes() {
+  return (
+    <div className={styles.container}>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Mainpage />} />
+          <Route path="/cadastro" element={<Cadastro />} />
+          <Route path="/carrinho" element={<Carrinho />} />
+        </Routes>
         <Footer />
-        </BrowserRouter>
-    )
+      </BrowserRouter>
+    </div>
+  );
 }
 
 export default AppRoutes;
