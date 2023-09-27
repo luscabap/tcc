@@ -19,24 +19,21 @@ background-color: $escuroEsmaecido;
         
     }
 
-    .container_tamanhoCamisa{
-        display: flex;
-        gap: 0 1rem;
-        align-items: center;
-        
-        .containerOpcoes{
-            padding: 0.7rem;
-            border: none;
-            font-family: $fonte-bold;
-            font-size: 1.2rem;
+    .containerInformacoes{ 
+        margin-left: 0.8em;
+
+        .container_tamanhoCamisa{
+            display: flex;
+            gap: 0 1rem;
+            align-items: center;
+            
+            .containerOpcoes{
+                padding: 0.7rem;
+                border: none;
+                font-family: $fonte-bold;
+                font-size: 1.2rem;
+            }
         }
-    }
-
-    .containerCompra{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-
     }
     .botaoComprar{
         padding: 1rem;

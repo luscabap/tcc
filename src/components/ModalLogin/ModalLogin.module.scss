@@ -48,6 +48,11 @@
                 border-radius: 0.4em;
                 text-decoration: none;
             }
+
+            .botaoEnviar{
+                cursor: pointer;
+                background-color: $principal;
+            }
             
             .botao_usuario{
                 text-decoration: underline;
