@@ -18,7 +18,7 @@ function ModalLogin({ isOpen, setOpenModal }: ModalProps) {
     return (
       <>
         <div className={styles.background_page}>
-          <div className={styles.modal_login}>
+          <div className={styles.modal_login} onBlur={closeModal}>
             <div className={styles.container_modal}>
               <ShirtFolded size={150} color="#008F8C" />
               <p className={styles.texto_cliente}>Já sou cliente</p>

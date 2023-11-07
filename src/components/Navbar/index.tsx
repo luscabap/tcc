@@ -50,7 +50,7 @@ export default function Navbar() {
         </div>
       </div>
       <ul className={styles.lista}>
-        <li className={styles.item}>CAMISAS NACIONAIS</li>
+        <li className={styles.item} onClick={() => mudarRota("camisasnacionais")}>CAMISAS NACIONAIS</li>
         <li className={styles.item}>CAMISAS INTERNACIONAIS</li>
         <li className={styles.item}>CAMISAS SELEÇÕES</li>
       </ul>

@@ -5,6 +5,7 @@ import { Cadastro } from "./pages/Cadastro";
 import Mainpage from "./pages/Mainpage";
 import { Carrinho } from "./pages/Carrinho";
 import styles from './styles/GlobalStyles.module.scss';
+import CamisasNacionais from "./pages/CamisasNacionais";
 
 function AppRoutes() {
   return (
@@ -15,6 +16,7 @@ function AppRoutes() {
           <Route path="/" element={<Mainpage />} />
           <Route path="/cadastro" element={<Cadastro />} />
           <Route path="/carrinho" element={<Carrinho />} />
+          <Route path="/camisasnacionais" element={<CamisasNacionais />} />
         </Routes>
         <Footer />
       </BrowserRouter>
