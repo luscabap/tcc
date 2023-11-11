@@ -1,5 +1,16 @@
-export default function MainPage(){
+import Slider from "../../components/Slider";
+import styles from "./Mainpage.module.scss";
+
+export default function Mainpage() {
+
   return (
-    <h1>PAGINA PRINCIPAIS</h1>
-  )
+    <>
+      <div className={styles.container}>
+        <h1 className={styles.container__titulo}>PRODUTOS</h1>
+        <div className={styles.container__slider}>
+        <Slider />
+        </div>
+      </div>
+    </>
+  );
 }
