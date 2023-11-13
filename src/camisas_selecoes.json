@@ -1,0 +1,51 @@
+[
+    {
+        "titulo": "Camisa da Seleção Brasileira Brasileira",
+        "preco": "600,00",
+        "sobre": "AMARELINHA!",
+        "imagem": "https://jcesportes.com.br/wp-content/uploads/2022/08/ee2488ae-12df-4d0d-8d73-3967706001651-a5389c6e261ccea3d116634496183659-640-0.jpeg",
+        "id": "1"
+    },
+    {
+        "titulo": "Camisa da Seleção Argentina",
+        "preco": "500,00",
+        "sobre": "ARGENTINA!",
+        "imagem": "https://acdn.mitiendanube.com/stores/001/631/923/products/12271-556ec012bb18c00fda16525833963817-1024-1024.jpg",
+        "id": "2"
+    },
+    {
+        "titulo": "Camisa da Seleção Uruguaia",
+        "preco": "400,00",
+        "sobre": "CELESTE!",
+        "imagem": "https://cdn.iset.io/assets/56122/produtos/3045/camisa-do-uruguai-copa-2022-mg-camisas-futebol.jpg",
+        "id": "3"
+    },
+    {
+        "titulo": "Camisa da Seleção Francesa",
+        "preco": "400,00",
+        "sobre": "BLUES!",
+        "imagem": "https://cdn.shopify.com/s/files/1/0612/3860/8117/files/7ec34861_480x480.jpg?v=1660602578",
+        "id": "4"
+    },
+    {
+        "titulo": "Camisa da Seleção Alemã",
+        "preco": "450,00",
+        "sobre": "ALEMÃES!",
+        "imagem": "https://dcdn.mitiendanube.com/stores/002/931/442/products/fa7c2d6f-5980-498a-940a-a5390ad6821d1-b096a4d524602ecff316791994884114-1024-1024.jpeg",
+        "id": "5"
+    },
+    {
+        "titulo": "Camisa da Seleção Belga",
+        "preco": "400,00",
+        "sobre": "BELGA!",
+        "imagem": "https://acdn.mitiendanube.com/stores/001/876/620/products/camisa-selecao-belgica-belga-belgica-belgium-masculina-2022-2023-22-23-preta-black-modelo-fan-torcedor-kdb-bruyne-lukaku-hazard-courtois-witsel-doku-meunier-castagne-ketelaere-mertens-carrasco-71-72c5959a9d2bbfe8b616741476639151-640-0.jpg",
+        "id": "6"
+    },
+    {
+        "titulo": "Camisa da Seleção Espanhola",
+        "preco": "450,00",
+        "sobre": "ESPANHÓIS!",
+        "imagem": "https://down-br.img.susercontent.com/file/sg-11134201-22110-k1j2i8pwkljvdd",
+        "id": "7"
+    }
+]

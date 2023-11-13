@@ -1,0 +1,37 @@
+[
+    {
+        "titulo": "Camisa do Santos FC",
+        "preco": "350,00",
+        "sobre": "O MAIOR TIME DA TERRA!",
+        "imagem": "https://d2r9epyceweg5n.cloudfront.net/stores/002/408/990/products/4937315b1-1165020bf4eac18fa416631105025299-640-0.jpg",
+        "id": "1"
+    },
+    {
+        "titulo": "Camisa do Palmeiras",
+        "preco": "300,00",
+        "sobre": "O MAIOR TIME DA TERRA!",
+        "imagem": "https://imgcentauro-a.akamaihd.net/1366x1366/M0IF1L5Z.jpg",
+        "id": "2"
+    },
+{
+    "titulo": "Bayern de Munique",
+    "preco": "300",
+    "sobre": "O MAIOR TIME DA TERRA!",
+    "imagem": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/109661bd3e0f4bee936fae8a00ae2025_9366/Camisa_1_FC_Bayern_22-23_Vermelho_H64095_01_laydown.jpg",
+    "id": "3"
+},
+{
+    "titulo": "Camisa do São Paulo FC",
+    "preco": "24,00",
+    "sobre": "DÁ O CU #TRIKAS",
+    "imagem": "https://images.tcdn.com.br/img/img_prod/684995/camisa_i_sao_paulo_fc_22_23_masculina_643_1_acbe6e460972a4045ce7c34a8a12f109.jpg",
+    "id": "4"
+},
+{
+    "titulo": "Camisa do PARMALAT FC",
+    "preco": "-40,00",
+    "sobre": "IGUAL UM DUENDE...!",
+    "imagem": "https://i0.wp.com/halldafama.com.br/wp-content/uploads/2020/11/076-01.png?fit=1000%2C1000&ssl=1",
+    "id": "5"
+}
+]

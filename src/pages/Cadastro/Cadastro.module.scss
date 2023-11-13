@@ -1,5 +1,84 @@
 @import "../../styles/variables";
 
 .container{
-    height: 78.3vh;
+    &__titulo{
+        font-weight: bold;
+        font-size: 2rem;
+        margin: 0.7rem;
+    }
+
+    &__form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        background-color: gray;
+        padding: 2rem;
+
+        &__infos{
+            display: flex;
+            width: 50%;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.5rem;
+            border: 2px solid $escuroCor;
+            margin: 0.5rem 0;
+            border-radius: 1rem;
+            
+            &__label{
+                background-color: $principal;
+                padding: 0.6rem;
+                border-radius: 0.7rem;
+                font-size: 1.2rem;
+                cursor: pointer;
+                transition: 0.3s;
+                display: flex;
+                align-items: center;
+
+                &:hover{
+                    color: white;
+                    transition: 0.3s;
+                }
+
+                &__icone{
+                    margin: 0 0.3rem 0 0;
+                }
+            }
+
+            &__input{
+                width: 70%;
+                border: none;
+                padding: 0.6rem;
+                border-radius: 0.7rem;
+                font-size: 1.2rem;
+                background-color: $inputClaro;
+            }
+        }
+
+        &__containerBotao{
+            display: flex;
+
+            &__botao{
+                padding: 1.2rem;
+                border: 2px solid $principal;
+                margin: 1rem;
+                cursor: pointer;
+                transition: 0.7s;
+                font-weight: bold;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 1rem;
+
+                &:hover{
+                    background-color: $principal;
+                    color: $claro;
+                    transition: 0.7s;
+                    transform: scale(1.08);
+                    border: 2px solid $claro;
+                    border-radius: 2rem;
+                }
+            }
+        }
+    }
 }

@@ -61,7 +61,7 @@ export default function Footer(){
                         </div>
                     </div>
                 </div>
-                <p className={styles.container__sobre}>Site desenvolvido por Lucas Baptista - E-mail: lucasbaptistasilva.dev@gmail.com &copy; Todos os direitos reservador. 2023</p>
+                <p className={styles.container__sobre}>Site desenvolvido por Lucas Baptista - E-mail: lucasbaptistasilva.dev@gmail.com<strong>&copy; Todos os direitos reservados. 2023</strong></p>
             </footer>
         </>
     )

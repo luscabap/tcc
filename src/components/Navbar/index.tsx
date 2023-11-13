@@ -16,7 +16,8 @@ export default function Navbar() {
   function mudarRota(rota:string){
     navigate(`/${rota}`);
   }
-  
+
+
   return (
     <nav className={styles.container}>
       <div className={styles.infos}>
@@ -51,8 +52,8 @@ export default function Navbar() {
       </div>
       <ul className={styles.lista}>
         <li className={styles.item} onClick={() => mudarRota("camisasnacionais")}>CAMISAS NACIONAIS</li>
-        <li className={styles.item}>CAMISAS INTERNACIONAIS</li>
-        <li className={styles.item}>CAMISAS SELEÇÕES</li>
+        <li className={styles.item} onClick={() => mudarRota("camisas_internacionais")}>CAMISAS INTERNACIONAIS</li>
+        <li className={styles.item} onClick={() => mudarRota("camisas_selecoes")}>CAMISAS SELEÇÕES</li>
       </ul>
     </nav>
   );

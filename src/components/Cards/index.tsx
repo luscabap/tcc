@@ -1,8 +1,19 @@
 import Card from "./Card";
-import camisas from '../../camisas.json';
-import styles from './Cards.module.scss'
+import styles from './Cards.module.scss';
 
-export default function Cards(){
+type TypeCamisa = {
+    titulo: string;
+    preco: string;
+    sobre: string;
+    imagem: string;
+    id: string;
+}
+
+interface ICardProsp{
+    camisas: TypeCamisa[];
+}
+
+export default function Cards({ camisas }: ICardProsp){
     return (
         <>
             <ul className={styles.container}>
@@ -13,7 +24,7 @@ export default function Cards(){
                             titulo={camisa.titulo}
                             preco={camisa.preco}
                             sobre={camisa.sobre}
-                            key={camisa.id}
+                            id={camisa.id}
                         />)
                 }
             </ul>

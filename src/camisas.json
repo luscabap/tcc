@@ -1,37 +1,79 @@
 [
-    {
-        "titulo": "Camisa do Santos FC",
-        "preco": "1500",
-        "sobre": "O MAIOR TIME DA TERRA!",
-        "imagem": "https://d2r9epyceweg5n.cloudfront.net/stores/002/408/990/products/4937315b1-1165020bf4eac18fa416631105025299-640-0.jpg",
-        "id": 1
-    },
-    {
-        "titulo": "Camisa do Borussia Dortmund",
-        "preco": "200",
-        "sobre": "O MAIOR TIME DA TERRA!",
-        "imagem": "https://imgcentauro-a.akamaihd.net/1366x1366/M0IF1L5Z.jpg",
-        "id": 2
-    },
-    {
-        "titulo": "Bayern de Munique",
-        "preco": "300",
-        "sobre": "O MAIOR TIME DA TERRA!",
-        "imagem": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/109661bd3e0f4bee936fae8a00ae2025_9366/Camisa_1_FC_Bayern_22-23_Vermelho_H64095_01_laydown.jpg",
-        "id": 3
-    },
-    {
-        "titulo": "Camisa do São Paulo FC",
-        "preco": "24,00",
-        "sobre": "DÁ O CU #TRIKAS",
-        "imagem": "https://images.tcdn.com.br/img/img_prod/684995/camisa_i_sao_paulo_fc_22_23_masculina_643_1_acbe6e460972a4045ce7c34a8a12f109.jpg",
-        "id": 4
-    },
-    {
-        "titulo": "Camisa do PARMALAT FC",
-        "preco": "-40,00",
-        "sobre": "IGUAL UM DUENDE...!",
-        "imagem": "https://i0.wp.com/halldafama.com.br/wp-content/uploads/2020/11/076-01.png?fit=1000%2C1000&ssl=1",
-        "id": 5
-    }
-]
+            {
+                "titulo": "Camisa do Santos",
+                "preco": "350,00",
+                "sobre": "O MAIOR TIME DA TERRA!",
+                "imagem": "https://d2r9epyceweg5n.cloudfront.net/stores/002/408/990/products/4937315b1-1165020bf4eac18fa416631105025299-640-0.jpg",
+                "id": "1"
+            },
+            {
+                "titulo": "Camisa do Palmeiras",
+                "preco": "300,00",
+                "sobre": "O VERDÃO!",
+                "imagem": "https://acdn.mitiendanube.com/stores/001/149/892/products/53851fd11-17b63af587fe6b023f16771988900182-1024-1024.jpeg",
+                "id": "2"
+            },
+            {
+                "titulo": "Camisa do São Paulo",
+                "preco": "300,00",
+                "sobre": "O GLORIOSO!",
+                "imagem": "https://acdn.mitiendanube.com/stores/001/923/729/products/7aa7648b1-5f03b549f946001b8a16813519723842-640-0.jpg",
+                "id": "3"
+            },
+            {
+                "titulo": "Camisa do Corinthians",
+                "preco": "350,00",
+                "sobre": "O TIMÃO!",
+                "imagem": "https://down-br.img.susercontent.com/file/sg-11134201-7rbn1-lnkxn7qc7w6gf4",
+                "id": "4"
+            },
+            {
+                "titulo": "Camisa do Flamengo",
+                "preco": "350,00",
+                "sobre": "O MENGÃO!",
+                "imagem": "https://cf.shopee.com.br/file/br-11134207-7qukw-lgv07oyilzlhdb",
+                "id": "5"
+            },
+            {
+                "titulo": "Camisa do Vasco",
+                "preco": "350,00",
+                "sobre": "O GIGANTE DA COLINA!",
+                "imagem": "https://kssports23.com.br/wp-content/uploads/2023/02/camisa-vasco-preta-edicao-especial-2022-2023-feminina-1-scaled.jpg",
+                "id": "6"
+            },
+            {
+                "titulo": "Camisa do Grêmio",
+                "preco": "350,00",
+                "sobre": "O IMORTAL!",
+                "imagem": "https://lojafutmantos.com.br/wp-content/uploads/2023/02/big5-41.jpg",
+                "id": "7"
+            },
+            {
+                "titulo": "Camisa do Internacional",
+                "preco": "350,00",
+                "sobre": "O COLORADO!",
+                "imagem": "https://cdn.awsli.com.br/600x1000/2544/2544293/produto/219253639/sem-t-tulo-klcomcivsj.png",
+                "id": "8"
+            },
+            {
+                "titulo": "Camisa do Fluminense",
+                "preco": "370,00",
+                "sobre": "O NENSE!",
+                "imagem": "https://kssports23.com.br/wp-content/uploads/2023/05/camisa-goleiro-fluminense-2023-2024-preto-rosa-versao-torcedor-1-scaled.jpg",
+                "id": "9"
+            },
+            {
+                "titulo": "Camisa do Ceará",
+                "preco": "350,00",
+                "sobre": "O VOZÃO!",
+                "imagem": "https://acdn.mitiendanube.com/stores/001/055/309/products/ceara-branca-11-456bea8c0621efbdae16790618572275-1024-1024.jpeg",
+                "id": "10"
+            },
+            {
+                "titulo": "Camisa do Fortaleza",
+                "preco": "310,00",
+                "sobre": "O LEÃO!",
+                "imagem": "https://kssports23.com.br/wp-content/uploads/2023/08/camisa-do-fortaleza-leao-1918-listrada-home-2023-2024-versao-torcedor-11-scaled.jpg",
+                "id": "11"
+            }
+        ]

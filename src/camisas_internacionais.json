@@ -1,0 +1,44 @@
+[
+    {
+        "titulo": "Camisa do PSG",
+        "preco": "450,00",
+        "sobre": "ALLEZ LE BLUES!",
+        "imagem": "https://acdn.mitiendanube.com/stores/001/402/723/products/93c0962a1-cfc987caca4b41424216877947876022-1024-1024.jpg",
+        "id": "1"
+    },
+    {
+        "titulo": "Camisa do Real Madrid",
+        "preco": "500,00",
+        "sobre": "HALLA MADRID!",
+        "imagem": "https://acdn.mitiendanube.com/stores/001/873/250/products/1a8df81a1-2225bf98f54e02e30216735296307679-1024-1024.jpg",
+        "id": "2"
+    },
+    {
+        "titulo": "Camisa do Barcelona",
+        "preco": "420,00",
+        "sobre": "DALLE BARCA!",
+        "imagem": "https://cdn.awsli.com.br/600x700/400/400052/produto/107894488/eddeeb5b-7g81utohp6.jpg",
+        "id": "3"
+    },
+    {
+        "titulo": "Camisa do Liverpool",
+        "preco": "400,00",
+        "sobre": "THE REDS!",
+        "imagem": "https://futhold.com.br/cdn/shop/products/3e2db02b-rotated-695019.jpg?v=1688682277",
+        "id": "4"
+    },
+    {
+        "titulo": "Camisa do Manchester United",
+        "preco": "400,00",
+        "sobre": "THE DEMONS!",
+        "imagem": "https://acdn.mitiendanube.com/stores/001/631/923/products/1751-32832bfb37174665e416525860689644-640-0.jpg",
+        "id": "5"
+    },
+    {
+        "titulo": "Camisa do Tottenham",
+        "preco": "450,00",
+        "sobre": "THE SPURS!",
+        "imagem": "https://acdn.mitiendanube.com/stores/001/631/923/products/1161-9c10d3efad7615954916524129086052-1024-1024.jpg",
+        "id": "6"
+    }
+]
