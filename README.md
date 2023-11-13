@@ -15,11 +15,15 @@ O projeto Ecommerce TCC foi desenvolvido utilizando as tecnologias React, TypeSc
 
 O site oferece 5 opções de telas:
 
-Página Principal: Uma visão geral do site;
-Camisas Internacionais, Nacionais e de Seleções: Apresenta o componente Card com informações sobre cada camisa disponível para venda, incluindo nome do time, preço, tamanho, imagem e bordão do time. Esses dados estão mockados em um arquivo JSON.
-Modal de Login: Alternativa para efetuar o login ou recuperar a senha;
-Tela de Cadastro: Uma interface simples e intuitiva para o usuário realizar o cadastro no site;
-Carrinho: [Continuação não fornecida no texto original.]
+• Página Principal: Uma visão geral do site;
+
+• Camisas Internacionais, Nacionais e de Seleções: Apresenta o componente Card com informações sobre cada camisa disponível para venda, incluindo nome do time, preço, tamanho, imagem e bordão do time. Esses dados estão mockados em um arquivo JSON;
+
+• Modal de Login: Alternativa para efetuar o login ou recuperar a senha;
+
+• Tela de Cadastro: Uma interface simples e intuitiva para o usuário realizar o cadastro no site;
+
+• Carrinho: [Continuação não fornecida no texto original.].
 
 🌎 Deploy do projeto: 
 
@@ -67,4 +71,4 @@ Lucas Baptista da Silva</a>
 
 Este projeto esta sobre a LICENÇA:
 
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/luscabap/lusca-projeto_hello-word/blob/main/LICENSE)
+[![NPM](https://github.com/luscabap/tcc/blob/main/LICENSE)
