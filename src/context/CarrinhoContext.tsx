@@ -1,62 +1,43 @@
-import { createContext, useContext, useState, useEffect } from "react";
+import { Dispatch, SetStateAction, createContext, useState } from "react";
+import { IProdutoProps } from "../dtos/camisaDTO";
 
-export const CarrinhoContext = createContext();
+type CarrinhoContext = {
+  carrinho: IProdutoProps[];
+  setCarrinho: SetStateAction<Dispatch<IProdutoProps[]>>;
+  adicionarProduto: (novoProduto: IProdutoProps) => void;
+};
+
+export const CarrinhoContext = createContext({} as CarrinhoContext);
 CarrinhoContext.displayName = "Carrinho";
 
 interface ICarrinhoProps {
-    children: JSX.Element
+  children: JSX.Element;
 }
-
-interface IProdutoProps{
-    imagem: string;
-    titulo: string;
-    preco: string;
-    sobre: string;
-    id: string;
-    quantidade?: number;
-  }
 
 export const CarrinhoProvider = ({ children }: ICarrinhoProps) => {
-    const [carrinho, setCarrinho] = useState<never[]>([]);
-    const [quantidadeProdutos, setQuantidadeProdutos] = useState(0)
+  const [carrinho, setCarrinho] = useState<IProdutoProps[]>([]);
 
-    return(
-        <CarrinhoContext.Provider 
-            value={{ 
-                carrinho, 
-                setCarrinho,
-                quantidadeProdutos,
-                setQuantidadeProdutos
-            }}>
-            {children}
-        </CarrinhoContext.Provider>
-    )
-}
+  function adicionarProduto(novoProduto: IProdutoProps) {
+    if (carrinho.some((produto) => produto.titulo === novoProduto.titulo)) {
+      const produtoExistente = carrinho.find(
+        (produto) => produto.titulo === novoProduto.titulo
+      );
+      produtoExistente.quantidade++;
+      return setCarrinho([...carrinho]);
+    }
+    novoProduto.quantidade = 1;
+    setCarrinho([...carrinho, novoProduto]);
+  }
 
-export const useCarrinhoContext = () => {
-    const { 
-        carrinho,
-        setCarrinho,
-    } = useContext(CarrinhoContext);
-
-    function adicionarProduto(novoProduto: IProdutoProps){
-        const temOProduto = carrinho.some(itemDoCarrinho => itemDoCarrinho.id === novoProduto.id)
-    
-        if(!temOProduto){
-          novoProduto.quantidade = 1;
-          return setCarrinho(prevCarrinho => 
-            [...prevCarrinho, novoProduto]
-          )
-        }
-        setCarrinho(prevCarrinho => prevCarrinho.map(itemDoCarrinho => {
-          if(itemDoCarrinho.id === novoProduto.id) itemDoCarrinho.quantidade += 1;
-          return itemDoCarrinho
-        }))
-      }
-
-    return {
+  return (
+    <CarrinhoContext.Provider
+      value={{
         carrinho,
         setCarrinho,
         adicionarProduto,
-    }
-}
+      }}
+    >
+      {children}
+    </CarrinhoContext.Provider>
+  );
+};
