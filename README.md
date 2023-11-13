@@ -25,7 +25,7 @@ O site oferece 5 opções de telas:
 
 • Carrinho: [Continuação não fornecida no texto original.].
 
-🌎 Deploy do projeto: 
+🌎 Deploy do projeto: https://tcc-ij3n.vercel.app/
 
 ---
 
