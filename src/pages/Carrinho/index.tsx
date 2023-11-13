@@ -8,7 +8,7 @@ export function Carrinho() {
 
   return (
     <>
-      <h1>CARRINHO</h1>
+      <h1 className={styles.container__titulo}>CARRINHO</h1>
       <div className={styles.container}>
         {carrinho.map((p) => {
           return (

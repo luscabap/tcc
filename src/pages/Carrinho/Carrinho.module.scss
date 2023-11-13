@@ -1,5 +1,14 @@
 @import "../../styles/variables";
 
+.titulo{
+    margin: 1rem 1rem;
+}
+
 .container{
-    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
 }
